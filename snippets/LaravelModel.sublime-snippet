@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+class ${1:Model} extends BaseModel
+{
+  protected $table = '${2:table}';
+}
+]]></content>
+  <tabTrigger>model</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
